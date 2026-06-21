@@ -1,8 +1,22 @@
-# Created by https://www.gitignore.io/api/osx,venv,macos,linux,python,django,pycharm,virtualenv
-
-### Django Ignore ###
+# Python / Django
 __pycache__/
+*.py[cod]
+
+# Virtual environments
 venv/
+.venv/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Static / build artifacts
+staticfiles/
 static/
-.idea
-migrations
+
+# Pytest
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
